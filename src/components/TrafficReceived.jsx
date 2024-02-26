@@ -1,5 +1,4 @@
 import TrafficIcon from '@mui/icons-material/Traffic';
-import { Typography } from '@mui/material';
 
 export default function TrafficReceived() {
   return ( 

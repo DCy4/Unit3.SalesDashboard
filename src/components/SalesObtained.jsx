@@ -1,6 +1,5 @@
 import ReceiptIcon from '@mui/icons-material/Receipt';
 
-
 function SalesObtained() {
   return ( 
     <div>

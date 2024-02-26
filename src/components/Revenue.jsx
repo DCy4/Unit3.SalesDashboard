@@ -1,4 +1,4 @@
-import mockTransactions from "../data/transactions"
+import {mockTransactions} from "../data/transactions.js"
 
 export default function Revenue() {
   let revenue = 0;
@@ -7,6 +7,6 @@ export default function Revenue() {
     });
     console.log(revenue);
     return (
-    <p>`$${revenue}`</p>
+    <p>Revenue Generated ${revenue}</p>
     );
 }

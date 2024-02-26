@@ -3,6 +3,7 @@ import './App.css'
 import Heading from './components/Heading'
 import DrawerLeft from './components/Drawer'
 import Revenue from './components/Revenue'
+import Transactions from './components/Transactions.jsx'
 import { styled } from '@mui/material/styles';
 import { Paper, Grid, Box } from '@mui/material';
 import TrafficReceived from './components/TrafficReceived';
@@ -36,11 +37,11 @@ function App() {
     <Grid item xs={4}>
     <Item><TrafficReceived/></Item>
     </Grid>
-    <Grid item xs={8}>
+    <Grid item xs={6}>
       <Item><Revenue/></Item> 
     </Grid>
-    <Grid item xs={4}>
-      <Item>xs=4</Item>
+    <Grid item xs={6}>
+      <Item><Transactions/></Item>
     </Grid>
   </Grid>
       
