@@ -3,7 +3,8 @@ import React from "react";
 
 function Heading() {
   return ( 
-    <div> 
+    <div>
+    Welcome to your dashboard
     </div>
   );
 }
